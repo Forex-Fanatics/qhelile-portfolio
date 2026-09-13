@@ -133,11 +133,12 @@ const SITE_DATA = {
   ],
 
   awards: [
-    { name: "Best Student Award" },
-    { name: "Best Actor Award" },
-    { name: "Maths Wizard Award" },
-    { name: "Smartest Boy Award" },
-    { name: "Forex Funded Account Trader" },
-    { name: "Best Worker of the Month", note: "IBS" }
+    { name: "EECS Bobcat Summer Fellowship", amount: "$11,000", year: "2024, 2025, 2026", org: "University of California, Merced, CA, USA" },
+    { name: "Forex Funded Account Trader", year: "2025", org: "Equity Edge Prop Firm, UK" },
+    { name: "Best Worker of the Month", year: "2023", org: "Integrity Business Solutions, Bulawayo, Zimbabwe" },
+    { name: "Best Student Award", year: "2021", org: "National University of Science and Technology, Zimbabwe" },
+    { name: "Best Actor Award", year: "2016", org: "Thekwane High School, Zimbabwe" },
+    { name: "Math's Wizard Award", year: "2015", org: "Thekwane High School, Zimbabwe" },
+    { name: "Well Dressed Boy Award", year: "2014", org: "Thekwane High School, Zimbabwe" }
   ]
 };

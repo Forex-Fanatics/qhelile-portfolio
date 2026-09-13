@@ -204,7 +204,10 @@ document.addEventListener("DOMContentLoaded", () => {
     const awardList = document.getElementById("award-list");
     if (!awardList || !SITE_DATA.awards) return;
     awardList.innerHTML = SITE_DATA.awards
-      .map((a) => `<li><b>${a.name}</b>${a.note ? `<span>${a.note}</span>` : ""}</li>`)
+      .map((a) => {
+        const meta = [a.amount, a.year, a.org].filter(Boolean).join(" · ");
+        return `<li><b>${a.name}</b>${meta ? `<span>${meta}</span>` : ""}</li>`;
+      })
       .join("");
   });
 
