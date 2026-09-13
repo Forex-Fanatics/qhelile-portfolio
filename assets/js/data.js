@@ -90,7 +90,7 @@ const SITE_DATA = {
       {
         stack: "React",
         title: "TradeFlow — Trading Journal",
-        desc: "A professional-grade trading journal replicating and extending TradeZella, with multi-account management, automatic P&L, and analytics dashboards.",
+        desc: "A professional-grade trading journal,learning + mentorship platform,  with multi-account management, automatic P&L, and analytics dashboards.",
         link: "https://qtradeflow.com"
       },
       {
