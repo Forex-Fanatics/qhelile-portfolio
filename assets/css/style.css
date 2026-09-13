@@ -544,15 +544,15 @@ section:last-of-type { border-bottom: none; }
 }
 .award-list li {
   display: flex;
-  justify-content: space-between;
-  gap: 16px;
-  padding: 13px 0;
+  flex-direction: column;
+  gap: 4px;
+  padding: 14px 0;
   border-top: 1px solid var(--line);
   font-size: 0.98rem;
 }
 .award-list li:last-child { border-bottom: 1px solid var(--line); }
 .award-list b { font-weight: 600; }
-.award-list span { color: var(--ink-faint); font-size: 0.86rem; }
+.award-list span { color: var(--ink-faint); font-size: 0.84rem; }
 
 /* ---------- Contact ---------- */
 .contact-inner {
