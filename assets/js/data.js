@@ -89,7 +89,7 @@ const SITE_DATA = {
     personal: [
       {
         stack: "React",
-        title: "TradeFlow — Trading Journal",
+        title: "TradeFlow: Trading Journal",
         desc: "A professional-grade trading journal,learning + mentorship platform,  with multi-account management, automatic P&L, and analytics dashboards.",
         link: "https://qtradeflow.com"
       },
